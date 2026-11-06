@@ -1,0 +1,26 @@
+# Build .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.log
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.rsuser
+
+# SECRETS : ne jamais versionner
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.local.json
+.env
+.secrets-backup/
+
+# Bases locales
+*.db
+*.mdf
+*.ldf
